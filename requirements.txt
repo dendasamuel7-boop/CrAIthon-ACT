@@ -1,8 +1,0 @@
-flask
-wikipedia
-sympy
-gunicorn
-requests
-beautifulsoup4
-duckduckgo-search
-langdetect
