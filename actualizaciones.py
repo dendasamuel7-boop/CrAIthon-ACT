@@ -1001,49 +1001,6 @@ HTML_CHILD = """
             width: 118px;
             height: 118px;
         }
-
-        .beta-pill {
-            position: relative;
-            z-index: 1;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            width: 112px;
-            height: 112px;
-            border-radius: 50%;
-            background: rgba(255,255,255,0.04);
-            border: 1px solid rgba(255,255,255,0.12);
-            font-size: 0.85rem;
-            font-weight: 800;
-            color: #edf5ff;
-            letter-spacing: 0.08rem;
-            text-shadow: 0 0 18px rgba(255,255,255,0.4);
-            box-shadow: inset 0 0 25px rgba(255,255,255,0.02), 0 0 25px rgba(96,165,250,0.14);
-            animation: betaPulse 5s ease-in-out infinite;
-        }
-
-        .beta-orbit {
-            position: absolute;
-            inset: 0;
-            border-radius: 50%;
-            border: 1px solid rgba(255,255,255,0.12);
-            animation: orbit 6s linear infinite;
-            box-shadow: inset 0 0 18px rgba(255,255,255,0.02);
-        }
-
-        .beta-orbit::before {
-            content: "";
-            position: absolute;
-            width: 12px;
-            height: 12px;
-            border-radius: 50%;
-            background: linear-gradient(135deg, #8fe8ff, #5ba1ff);
-            top: 12px;
-            left: 50%;
-            transform: translateX(-50%);
-            box-shadow: 0 0 18px rgba(96,165,250,0.9);
-        }
-
         @keyframes betaPulse {
             0%, 100% { opacity: 0.8; transform: scale(0.96); }
             50% { opacity: 1; transform: scale(1); }
